@@ -1,0 +1,5 @@
+baseurl: "mihaielectron.github.io" # Pour un site principal (username.github.io)
+# OU
+baseurl: "/nom-du-repo" # Pour un site de projet
+
+url: "https://mihaielectron.github.io"
