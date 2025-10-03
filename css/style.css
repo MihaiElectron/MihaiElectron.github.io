@@ -202,7 +202,6 @@ nav {
 
 .filters-container span {
     display: flex;
-    font-size: 18px;
 }
 
 .filter-btn {
@@ -216,6 +215,7 @@ nav {
     gap: 10px;
     font-size: 17px;
     font-weight: bold;
+    background: white;
 }
 
 .filter-btn:hover {
