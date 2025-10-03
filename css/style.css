@@ -214,6 +214,8 @@ nav {
     font-size: 17px;
     padding: 4px 19px 4px 18px;
     gap: 10px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .filter-btn:hover {
