@@ -16,15 +16,15 @@
 
 <body>  
 
-    <nav>
+    <nav class="nav">
         <div class="nav-logo">
             <a href="#">
                 <img class="nav-logo-img" src="images/logo/Booki.png" alt="booki logo">
             </a>    
         </div>
         <ul class="nav-menu">
-            <li><a href="#hebergements">Hébérgements</a></li>
-            <li><a href="#activites">Activités</a></li>
+            <li class="li-hebergements active"><a href="#hebergements">Hébérgements</a></li>
+            <li class="li-activites"><a href="#activites">Activités</a></li>
         </ul>
     </nav>
     
@@ -44,22 +44,24 @@
                 </form>
                 <div class="filters-container">
                     <span class="filters-title">Filtres</span>
-                    <button class="filter-btn">
-                        <img src="images/icons/economique.png" alt="">
-                        Economique
-                    </button>
-                    <button class="filter-btn">
-                        <img src="images/icons/famillial.png" alt="">
-                        Famillial
-                    </button>
-                    <button class="filter-btn">
-                        <img src="images/icons/romantique.png" alt="">
-                        Romantique
-                    </button>
-                    <button class="filter-btn">
-                        <img src="images/icons/pépites.png" alt="">
-                        Nos pépites
-                    </button>
+                     <div class="btns-container">
+                        <button class="filter-btn">
+                            <img src="images/icons/economique.png" alt="">
+                            Economique
+                        </button>
+                        <button class="filter-btn">
+                            <img src="images/icons/famillial.png" alt="">
+                            Famillial
+                        </button>
+                        <button class="filter-btn">
+                            <img src="images/icons/romantique.png" alt="">
+                            Romantique
+                        </button>
+                        <button class="filter-btn">
+                            <img src="images/icons/pépites.png" alt="">
+                            Nos pépites
+                        </button>
+                    </div>
                 </div>
                 <div class="total-disponibility">
                     <img class="elipse" src="images/icons/Ellipse 11.png" alt="">
@@ -283,34 +285,34 @@
                 <div class="activites-cards">                    
                         <article class="activite-card">
                             <a href="#">
-                            <img src="images/activites/reno-laithienne.jpg" alt="Image du Vieux-Port Marseillais">
-                            <div class="activite-card-txt">
-                                <h4>Vieux-Port</h4>
-                            </div>
+                                <img src="images/activites/reno-laithienne.jpg" alt="Image du Vieux-Port Marseillais">
+                                <div class="activite-card-txt">
+                                    <h4>Vieux-Port</h4>
+                                </div>
                             </a>    
                         </article>             
                         <article class="activite-card">
                             <a href="#">
-                            <img src="images/activites/paul-hermann.jpg" alt="Image du fort de Pomégues">
-                            <div class="activite-card-txt">
-                                <h4>Fort de Pomégues</h4>
-                            </div>
+                                <img src="images/activites/paul-hermann.jpg" alt="Image du fort de Pomégues">
+                                <div class="activite-card-txt">
+                                    <h4>Fort de Pomégues</h4>
+                                </div>
                             </a>
                         </article>
                         <article class="activite-card">
                             <a href="#">
-                            <img src="images/activites/kilyan-sockalingum.jpg" alt="Image du Parc national des Calanques">
-                            <div class="activite-card-txt">
-                                <h4>Parc national des Calanques</h4>
-                            </div>
+                                <img src="images/activites/kilyan-sockalingum.jpg" alt="Image du Parc national des Calanques">
+                                <div class="activite-card-txt">
+                                    <h4>Parc national des Calanques</h4>
+                                </div>
                             </a>
                         </article>
                         <article class="activite-card">
                             <a href="https://www.marseille-tourisme.com/decouvrez-marseille/culture-et-patrimoine/sites-et-monuments/la-basilique-notre-dame-de-la-garde/">
-                            <img src="images/activites/florian-wehde.jpg" alt="Image de Notre-Dame-de-la-Garde">
-                            <div class="activite-card-txt">
-                                <h4>Notre-Dame-de-la-Garde</h4>
-                            </div>
+                                <img src="images/activites/florian-wehde.jpg" alt="Image de Notre-Dame-de-la-Garde">
+                                <div class="activite-card-txt">
+                                    <h4>Notre-Dame-de-la-Garde</h4>
+                                </div>
                             </a>
                         </article>
                     
