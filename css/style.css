@@ -634,6 +634,12 @@ a {
         height: 50px;
     }
 
+    .search-btn {
+        width: 49px;
+        height: 49px;
+        font-size: 0px;
+    }
+
     .total-disponibility {
         position: relative;
         bottom: 0px;
@@ -665,6 +671,12 @@ a {
         align-items: center;
     }
 
+    .populaires-cards a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     .card img {
         height: 146px;
     }
@@ -673,6 +685,7 @@ a {
         width: 335px;
         height: 146px;
     }
+
     .hebergements {
         flex-direction: column;
         width: 100%;
@@ -714,7 +727,7 @@ a {
 
     .activite-card {
         width: auto;
-
+        justify-content: cen;
     }
 
     .activite-card a {
