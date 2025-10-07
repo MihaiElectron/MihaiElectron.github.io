@@ -1,4 +1,45 @@
 /****** General ***********/
+
+/****** Debug ******/
+
+/* Ajoute une bordure temporaire à tous les éléments pour debug
+* {
+    outline: 1px solid red;
+}
+*/
+
+/* Assurer le bon calcul des tailles
+* {
+  box-sizing: border-box;
+}
+*/
+
+
+/* Rendre les images responsives
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+*/
+
+/*  Empêcher le débordement horizontal
+html, body {
+  overflow-x: hidden;
+}
+*/
+
+
+
+html, body {
+    overflow-x: hidden;
+  }
+
+.flex-child {
+  min-width: 0;
+}
+*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -23,7 +64,8 @@ body {
     display: flex;
     flex-direction: column;/*** Je remplace justify-content: center; et ajoute flex-direction et align-items pour permettre a la nav d'être centrée horizontalement et non côte à côte du main-container. Ainsi la nav prend 1440px sans le padding imposé par main-container ***/
     align-items: center;
-    
+    max-width: 1440px;
+    min-width: 335px;
 }
 
 .main-container {
@@ -178,8 +220,12 @@ a {
     padding: 15px 16px;
     font-size: 18px;
     color: white;
-    font-weight: bold;
-    
+    font-weight: bold;  
+    border: none;  
+}
+
+.search-img {
+    display: none;
 }
 
 .city-input {
@@ -187,9 +233,6 @@ a {
     outline: none;
 }
 
-.search-btn {
-    border: none;
-}
 
 .filters-container {
     display: flex;
@@ -568,10 +611,7 @@ a {
         border-top: none;
     }
 
-    .li-hebergements:hover,
-    .li-hebergements.active {
-        border-bottom: solid 2px #0065FC;
-    }
+  
 
     .li-activites:hover {
         border-bottom: solid 2px #0065FC;
@@ -597,10 +637,26 @@ a {
         background-color: white;
     }
 
+    .title {
+        height: auto;
+        gap: 8px; 
+    }
+
     .search-form {
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .search-btn {
+        font-size: 0px;
+        width: auto;
+        height: 50px;
+   
+    }
+
+    .search-img {
+        display: inline-block;
     }
 
     .filters-container {
@@ -609,7 +665,7 @@ a {
         align-items: flex-start;
         width: 100%;
         height: auto;
-
+        gap: 20px;
     }    
 
     .filters-title {
@@ -620,8 +676,9 @@ a {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 161px;
+        height: 100%;
         gap: 10px;
+        row-gap: 20px;
     }
 
     .filter-btn {
@@ -629,15 +686,9 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 5px;
         box-sizing: border-box;
+        margin: 0px;
         height: 50px;
-    }
-
-    .search-btn {
-        width: 49px;
-        height: 49px;
-        font-size: 0px;
     }
 
     .total-disponibility {
@@ -730,10 +781,6 @@ a {
         justify-content: cen;
     }
 
-    .activite-card a {
-        
-    }
-
     .activite-card img {
         width: 315px;
         height: 141px;
@@ -746,7 +793,10 @@ a {
         height: auto;
         padding: 30px;
         background: #F2F2F2;
-        box-sizing: border-box;
-        
+        box-sizing: border-box;        
+    }
+
+    .footer-menu-container {
+        width: auto;
     }
 }
