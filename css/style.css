@@ -609,12 +609,11 @@ a {
 
     .nav-menu li:hover {
         border-top: none;
-    }
-
-  
-
-    .li-activites:hover {
         border-bottom: solid 2px #0065FC;
+    }  
+
+    .nav-menu li:hover {
+        
     }
     .nav-menu li a {
         padding: 0px;
