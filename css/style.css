@@ -79,6 +79,7 @@ body {
 }
 
 h1 {
+    font-weight: 700;
     font-size: 22px;
 }
 
@@ -287,6 +288,7 @@ a {
 .total-disponibility {
     position: relative;
     display: flex;
+    align-items: center;
     width: auto;
     height: 24px;
     gap: 10px;
@@ -294,18 +296,17 @@ a {
 
 .total-disponibility img {
     position: absolute;
-
 }
 
-.elipse {
+.ellipse {    
     width: 24px;
     height: 24px;
 }
 
-.info {
+.info {    
     width: 4px;
     height: 10px;
-    padding: 7px 0px 0px 10px;
+    padding-left: 10px;
 }
 
 /*** A utiliser au besoin si l'image n'est pas transparente 
