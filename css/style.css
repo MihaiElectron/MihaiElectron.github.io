@@ -87,6 +87,16 @@ a {
     color: var(--main-color);
 }
 
+.hebergements-and-populaires .star-fill {
+    width: 14.29px;
+    height: 13.25px;
+}
+
+.hebergements-and-populaires .star-empty {
+    width: 14.29px;
+    height: 13.25px;
+}
+
 /* Étoile non remplie (notation) */
 .neutral-star {
     color: var(--main-bg-color);
